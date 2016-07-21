@@ -1,64 +1,18 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <base href="http://demos.telerik.com/kendo-ui/button/events">
-    <style>html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }</style>
-    <title></title>
-    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.common-material.min.css" />
-    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.material.min.css" />
-    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.default.mobile.min.css" />
-
-    <script src="//kendo.cdn.telerik.com/2016.2.714/js/jquery.min.js"></script>
-    <script src="//kendo.cdn.telerik.com/2016.2.714/js/kendo.all.min.js"></script>
-    <link rel="stylesheet" href="../content/shared/styles/examples-offline.css">
-    <script src="../content/shared/js/console.js"></script>
-</head>
 <body>
-
-        <div id="example">
-
-            <div class="demo-section k-content">
-              	<img src="breakout_logo.png" alt="Breakout" width="256">
-	            <div style="padding-top:20px">
-	              	<button type="button" id="iosBtn">Install IOS</button>   
-	            </div>
-	            <div style="padding-top:20px">
-	            	<button type="button" id="androidBtn">Install Android</button>
-	            </div>
-            </div>
-
-            <script>
-                $(document).ready(function() {
-
-                    function onClick(e) {
-                        kendoConsole.log("event :: click (" + $(e.event.target).closest(".k-button").attr("id") + ")" );
-                    }
-
-                    $("#androidBtn").kendoButton({
-                        click: onClick,
-                      	imageUrl: "http://findicons.com/files/icons/2336/wpzoom_social_networking_icon/64/android.png"
-                    });
-                  
-                    $("#iosBtn").kendoButton({
-                        click: onClick,
-                      	imageUrl: "https://www.redcricketgames.com/wp-content/uploads/2015/06/flyout-ios-icon.074599d59082.png"
-                    });     
-                });
-            </script>
-          
-            <style>
-            .demo-section {
-                text-align: center;
-                line-height: 4em;
-            }
-            .demo-section .k-button {
-                              text-align: left;
-
-                width: 250px;
-            }
-        </style>
-         
-        </div>
-
+  <h1>Please ensure you open this page in a native browser.</h1>
+  <p><a href="itms-services://?action=download-manifest&amp;url=https://garenagithub.github.io/GarenaFPS/Breakout/manifest.plist">
+    Install On IOS</a></p>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <p><a href="http://10.21.22.66:80/breakout/breakout.apk">
+    Install On Android</a></p>
 </body>
 </html>
