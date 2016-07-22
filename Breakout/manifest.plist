@@ -19,11 +19,11 @@
 				<key>bundle-identifier</key>
 				<string>com.jingle.mobiledev.prototype01</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Breakout01</string>
+				<string>Breakout-Prototype01</string>
 			</dict>
 		</dict>
 	</array>
