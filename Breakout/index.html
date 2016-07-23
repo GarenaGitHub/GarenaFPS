@@ -14,7 +14,13 @@
 <div class="g-bd m-index f-pr" id="module-root">
 <section class="pic"><img src="./resources/breakout_logo2.png"></section>
 <section class="pic btn"><a href="http://10.21.22.66:80/breakout/breakout.apk" data-action="download"><img src="./resources/android_btn.png"></a></section>
+<div class="m-copyright f-tc" style="margin-top:-20px;" id="android_info"></div>
 <section class="pic btn"><a href="itms-services://?action=download-manifest&amp;url=https://garenagithub.github.io/GarenaFPS/Breakout/manifest.plist" data-action="download"><img src="./resources/ios_btn.png"></a></section>
+<div class="m-copyright f-tc" style="margin-top:-20px;" id="ios_info"></div>
 </div>
-<script src="./resources/core.js" type="text/javascript"></script><script src="./resources/pt_main_index.js" type="text/javascript"></script>
+<script src="./resources/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$('#android_info').load('http://10.21.22.66:80/breakout/android_info.html');
+	$('#ios_info').load('http://10.21.22.66:80/breakout/ios_info.html');
+</script>
 </body></html>
